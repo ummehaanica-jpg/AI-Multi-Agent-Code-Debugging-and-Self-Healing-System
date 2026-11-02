@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables (NEVER commit API keys)
+.env
+
+# Streamlit
+.streamlit/
+
+# Temporary files
+temp/
+*.tmp
+*.bak
+
+# Database
+knowledge/repair_memory.db
+
+# Evaluation results
+evaluation/results/
+evaluation_results.csv
+evaluation_chart.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
